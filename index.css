@@ -1,0 +1,413 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700);
+@import url(http://fonts.googleapis.com/css?family=Glegoo);
+
+          body{
+            overflow-x: hidden;
+          }
+          .header{ 
+            padding: 30px 0px;  
+           background: white; 
+           background-color: white;
+           position: fixed;
+           width: 100%;
+           z-index: 2;
+           }
+          .header ul a{ 
+           padding: 0 20px;
+           text-transform: uppercase;
+           color: darkblue; }
+
+        .aboutus{
+          margin-bottom: 50px;
+        }
+
+        .gradient{
+          width:auto;
+          background-image: linear-gradient(to right , green,  black, blue);
+        }
+
+        .gradient img{
+          height: 300px;
+        }
+  
+
+          .wrap {
+            width: 100%;
+            margin-bottom: 50px;
+            display: flex;
+            align-items: center;
+            background-image: url("images/sea.jpg");
+            background-size: cover;
+            background-attachment: fixed;
+            justify-content: center;
+            height: 100vh;
+            max-width: 100%;
+            opacity: 0.5;
+          }
+          .centered {
+            color:black;
+            font-weight: 900;
+            text-align:center;
+            }
+
+          #aboutimage{
+              height:300px;
+              width:auto;
+          }
+
+
+          .wework{
+            background-color: lightgray;
+            padding:25px;
+          }
+
+
+          .service{
+            padding:30px;
+          }
+
+         
+
+          .sea{
+            width: 80%;
+            background-color: white;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            margin-bottom: 25px;
+          }
+
+          #work{
+              margin-bottom: 50px;
+          }
+          .gallery{
+            margin-bottom: 80px;
+            overflow: hidden;
+            box-shadow: 0 0 5px black;
+            background-color: #fff;
+            padding: 0;
+            margin-right: 2%;
+            max-width: 31%;
+          }
+
+          .gallery-items .gallery:nth-child(3n){
+            margin-right: 0;
+          }
+          
+          .gallery .image{
+            overflow: hidden;
+            position: relative;
+          }
+          .gallery img{
+            width: 100%;
+            height:auto;
+          }
+
+          .gallery .desc{
+            padding:20px 15px;
+          }
+
+          .gallery .overlay {
+            position: absolute;
+            top:0;
+            left:0;
+            right:0;
+            bottom:0;
+            background:#00000059;
+            opacity:0;
+            transition: all ease-in-out .3s;
+          }
+
+          .gallery:hover .overlay{
+            opacity: 1;
+          }
+          .gallery:hover img{
+           transform:scale3d(2,2,2)
+          } 
+          
+          .systemlogo{
+              height: 100px;
+              width:100px;
+          }
+          
+
+
+          /*what we think*/
+          .whatuthink{
+              height: 350px;
+              width: 100%;
+              background-color: orangered;
+              text-align: justify;
+              color:white;
+              padding:50px;
+              margin-bottom: 35px;
+          }
+
+          .whatuthink button {
+            padding: 10px 20px;
+            font-size: 20px;
+            color:orangered;
+            font-size: 15px;
+            background-color: white;
+            border:none;
+        }
+        
+          .whatuthink p{
+              text-align: center;
+          }
+
+          .responsive {
+            padding: 0 6px;
+            float: left;
+            width: 24.99999%;
+          }
+
+          div.gallery img {
+            width: 100%;
+            height: auto;
+          }
+
+          p{
+            font-family:roboto condensed; 
+          }
+          
+          h2{
+            text-align: center;
+          }
+
+
+          .button{
+            color:orangered;
+          }
+
+          .address{
+            padding:30px;
+          }
+
+          /*contact page*/
+          .contact{
+            height:186px;
+            width:100%;
+            background-color: orangered;
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 95px;
+          }
+
+          .contact1{
+            padding:5px;
+            margin-bottom: 40px;
+            }
+            
+
+          .contact1 p{
+              font-size: 14px;
+              color:gray;
+              font-weight: normal;
+              font-family: Arial, Helvetica, sans-serif;
+
+            }
+
+          .contact p{
+            margin-left: 80px;
+            font-size: 18px;
+            color:gray;
+          }
+
+          .contact1 .button{
+            background-color: orangered;
+            color:white;
+          }
+
+          .contact1 img{
+            height:400px;
+            width:660px;
+          }
+
+          h1{
+            color:white;
+          }
+
+          .contact p a{
+            text-align: center;
+            color:white;
+          }
+
+          .cwm p{
+            font-family:roboto condensed; 
+   
+          }
+
+          .box{
+            background-color:lightgray;
+            height: 100px;
+            display:flex;
+            align-items: center;
+            margin: 0 auto 30px;
+          }
+
+            .copyright p{
+              font-family:roboto condensed; 
+              color:gray; 
+              font-size: px;
+
+            }
+
+          
+
+          /*service*/
+          .data{
+            padding:20px;
+          }
+
+          .data1 img{
+            max-height: 400px;
+          }
+
+          .serimg{
+            height: 200px;
+            width: 100%;
+          }
+          .serimage{
+            padding:20px;
+          }
+          .servicemenu{
+            height:186px;
+            width:100%;
+            background-color: orangered;
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+          }
+
+          .power{
+            font-family: 'Open Sans', 'Helvetica', sans-serif;
+            font-size: 15px;
+            color:grey;
+          }
+          .power h4{
+            color:black;
+          }
+
+          .welove{
+            margin-top: 50px;
+            margin-bottom: 50px;
+            font-family: 'Open Sans', 'Helvetica', sans-serif;
+            font-size: 15px;
+            color:grey;
+          }
+          .color{
+            background-color:rgb(252,252,252);
+            margin-top:100px;
+            margin-bottom: 100px;
+          }
+          .welove h3{
+            color:black;
+          }
+          
+         
+          .servicemenu .service p a{
+            color:white;
+          }
+
+
+          /*about us*/
+          .aboutus p{
+            font-family: 'Open Sans', 'Helvetica', sans-serif;
+            color:gray;
+          }
+
+          .chooseus{
+            height: 300px;
+            width:100%;
+            background-color: aqua;
+            display:flex;
+            align-items: center;
+          }
+
+          .chooseus .red{
+            background-color: orangered;
+          }
+
+          .blocks{
+            margin:50px auto;
+            margin-top: 0px;
+          }
+          .block{
+            height:100px;
+            width: 100px;
+          }
+
+          
+          
+          
+          .info{
+            margin-bottom: 30px;
+        }
+        .info .row{
+            text-align:left;
+            height:300px;
+            
+        }
+        .info .row h2{
+            text-align: start;
+            font-style: bold;
+        }
+        .info .row p{
+            text-align: start;
+        }
+        .info .orange{
+            background-color: orangered;
+            text-align: center;
+            padding:50px 50px;
+            
+        }
+        .info .blue{
+            background-color:lightblue;
+            text-align: center;
+            padding:50px 50px;
+          
+        }
+        .info .green{
+            background-color: aqua;
+            text-align: center;
+            padding:50px 50px;
+            
+        }
+        .meet h2{
+            text-align: center;
+            text-transform: uppercase;
+            font-family: bold;
+        
+        }
+        .meet h3{
+            text-transform: capitalize;
+            color:orangered;
+        }
+
+        .relac {
+          padding:20px;
+          margin:50px;
+        }
+        
+        .relac p{
+          font-family: 'Open Sans', 'Helvetica', sans-serif;
+          font-size: 15px;
+          color:grey;
+        }
+
+        .relac large{
+          font-family: 'Open Sans', 'Helvetica', sans-serif;
+          font-size: 25px;
+        }
+        
+        
+        
+         
+          
+
+         
+
+         
+         
